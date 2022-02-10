@@ -1,6 +1,73 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+
+    <style>
+        body {
+            background-color: #FFFF
+        }
+
+        p {
+            color: Black
+        }
+
+        .Green {
+            color: green
+        }
+        .Red {
+            color: red
+        }
+        .Blue {
+            color: blue
+        }
+        .Black {
+            color: rgb(79, 15, 163)
+        }
+        .White {
+            color: rgb(218, 218, 22)
+        }
+        .Colourless {
+            color: grey
+        }
+        #NavBar {
+            position: fixed;
+            height: 100%;
+            background-color: #f1f1f1;
+            top: 0;
+            left: 0;
+            padding: 15px;
+            width: 190px;
+            overflow-x: hidden;
+            z-index: 1;
+        }
+        .active {
+            background-color: #a8afad;
+            color: rgb(0, 0, 0);
+        }
+        #MainPartPage {
+            margin-left: 220px;
+
+        }
+    </style>
+
+</head>
+
 <body>
+
+ <div id="NavBar">
+    <p>
+    Home<br><br>
+    Picking Colours <br><br>
+    Picking Your Commander <br><br>
+    Creating A Land/Mana Base <br><br>
+    <span class="active">The Curve</span> <br><br>
+    Which Card Types? <br><br>
+    </p>
+    </div>
+
+
+<div id="MainPartPage">
 <h2>Step 4: The Curve</h2>
 <p>
 Now, many of you new players out there might look at "The Curve" and think, 'What the hell is that?'. Well, let me tell you, for it is quite simple really.
@@ -24,5 +91,6 @@ The standard curve for many decks is the following:
     for devestating effect or keep around to close the game out, by overwhelming those who would stand before you. You may want to consider saving a couple of card slots in your deck for cards that help 
     protect these heavy hitters, as they really are the thing that ends games.
 </p>
+</div>
 </body>
 </html>
