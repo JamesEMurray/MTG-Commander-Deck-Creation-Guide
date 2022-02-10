@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Step 5: Check Type(s) of Cards That Suit Your Deck</h2>
+<p>
+    Different card types suit different decks to varying degrees. To determine what kind of cards your deck wants most of you should first look at your commander and see if they benefit from cards of a certain
+    type. For example, there are a lot of commanders in <span class="White">White</span>/<span class="Green">Green</span> that interact with 'Enchantment' cards to either draw cards and/or gain you life when you
+    cast them. Whilst there are many <span class="Blue">Blue</span> cards that interact with artifacts. <br> <br>
+
+    Depending on what you find, you should probably implement more of certain types of cards that work well with your deck. If none become immediately apparent, then instants and creatures are normally a pretty
+    good way to go, alongside your artifact inclusive mana base.
+</p>
+</body>
+</html>
