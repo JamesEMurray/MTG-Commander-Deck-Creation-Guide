@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="NavBar">
+    <p>
+    <span class="active">Home</span><br><br>
+    Picking Colours <br><br>
+    Picking Your Commander <br><br>
+    Creating A Land/Mana Base <br><br>
+    The Curve <br><br>
+    Which Card Types? <br><br>
+    </p>
+    </div>
+
+    <div id="MainPartPage">
+<h1>Building A MTG(Magic The Gathering) Commander Deck</h1>
+
+<img src="MTG Logo.png" alt ="M T G Logo" width=500 height=200>
+<body>
+<html>
