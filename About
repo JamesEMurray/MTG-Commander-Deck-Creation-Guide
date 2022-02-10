@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        body {
+            background-color: #FFFF
+        }
+
+        p {
+            color: Black
+        }
+
+        .Green {
+            color: green
+        }
+        .Red {
+            color: red
+        }
+        .Blue {
+            color: blue
+        }
+        .Black {
+            color: rgb(79, 15, 163)
+        }
+        .White {
+            color: rgb(218, 218, 22)
+        }
+        .Colourless {
+            color: grey
+        }
+        #NavBar {
+            position: fixed;
+            height: 100%;
+            background-color: #f1f1f1;
+            top: 0;
+            left: 0;
+            padding: 15px;
+            width: 190px;
+            overflow-x: hidden;
+            z-index: 1;
+        }
+        .active {
+            background-color: #a8afad;
+            color: rgb(0, 0, 0);
+        }
+        #MainPartPage {
+            margin-left: 220px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="NavBar">
+    <p>
+    Home<br><br>
+    Picking Colours <br><br>
+    Picking Your Commander <br><br>
+    Creating A Land/Mana Base <br><br>
+    The Curve <br><br>
+    Which Card Types? <br><br>
+    <span class="active">About</span> <br><br>
+    </p>
+    </div>
+
+    <div id="MainPartPage">
+    <img src="http://taletellers.ie/wp-content/uploads/2020/02/Photo-on-02-11-2018-at-13.30.jpg" alt="James E Murray (JEM)">
+<p>
+    Hello and a warm welcome to whomever happens to be reading this. My name is James Evan Murray, pen-name J.E.M and I’m an author of the Fantasy genre and one of the tale tellers.
+    My writing exploits began when I was six years old, when I sat down to write a Scooby Doo story entitled “The Mysteryous Hotle”, and no, spelling was not my forte back then.
+    It was about, as you may have guessed, a mysterious hotel where not everything was as it seemed, hallways which were really giant treadmills, ghost that were jack-o-lanterns
+    covered by bedsheets and a disfigured receptionist, who had become so accustomed to being called a monster, that he decided to embrace it. I made it to chapter sixteen, but was
+    reluctant to bring the adventure to an end, wanting it to go on and on forever, and so the project was put to one side. </p>
+
+<p>
+    At the age of eight, I went from writing about adventures with the gang, to fantastical, magical tales with characters of my own; Such as Jack The Pumpkin Slayer, Sword Thief and Marco Merlin
+    to name but a few. My imagination ran riot in those years and I never remained on one project long enough to complete it, although I did make it a good three long chapters into “The Story of 
+    The Tree of Life” a novel I still intend to write. It is about a DnD-esque party of adventurers travelling the world and slaying the five great beasts who represent the five pillars of Hell,
+    a radical, yet awesome story idea I think you’ll agree. </p>
+
+<p>
+    For now however, at the grand old age of seventeen, I have set about writing my first trilogy, that I intent to publish in a couple of years time. The first book of the
+    “Tragedy to Tranquility Trilogy: From Gutter to Godhood” is well on its way to completion, although my lavish love of lengthy alliteration may have to sadly be set aside, 
+    as book one has become a tad too long and I fear may have to be split in two. Never mind, the book is set in The Twin Worlds, so I suppose it makes sense. </p>
+
+<p>
+    Till then, if you want to find out more about me and my writing, I am the proud author of the Tale Teller Blogs, that you can find posted on this here website. 
+    If that’s still not enough for you and you prefer soothing sanguine sounds, rather than wryly written words, I suggest you check out my YouTube channel ‘Jemstone’, 
+    where you can find short stories I have written, read to you, by me, in the form of an audiobook or radio broadcast. Sometimes structured and sometimes written with 
+    the added wonder of rolling dice, randomly determining where the story goes -a nod to my tabletop gaming hobby- I’m sure you’ll find it intriguing, if not entertaining, 
+    thanks to the added comical charm randomness and chaos brings. If you’re interested in the creation process, you will be pleased to know, that I have also uploaded videos 
+    showing the character creation process. All this and more can be found on my YouTube channel, but for those of you interested specifically in the tales being told, 
+    the “James’ Journal” playlist is the place to go. Self centred ramble over, I am afraid dear readers, that now I must go, for, in the words of The Tale Teller, 
+    “There is always, another tale, to be told.” </p>
+  </div>
+  </body>
+  </html>
