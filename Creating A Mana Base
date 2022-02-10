@@ -1,6 +1,73 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+
+    <style>
+        body {
+            background-color: #FFFF
+        }
+
+        p {
+            color: Black
+        }
+
+        .Green {
+            color: green
+        }
+        .Red {
+            color: red
+        }
+        .Blue {
+            color: blue
+        }
+        .Black {
+            color: rgb(79, 15, 163)
+        }
+        .White {
+            color: rgb(218, 218, 22)
+        }
+        .Colourless {
+            color: grey
+        }
+        #NavBar {
+            position: fixed;
+            height: 100%;
+            background-color: #f1f1f1;
+            top: 0;
+            left: 0;
+            padding: 15px;
+            width: 190px;
+            overflow-x: hidden;
+            z-index: 1;
+        }
+        .active {
+            background-color: #a8afad;
+            color: rgb(0, 0, 0);
+        }
+        #MainPartPage {
+            margin-left: 220px;
+
+        }
+    </style>
+
+</head>
+
 <body>
+
+ <div id="NavBar">
+    <p>
+    Home<br><br>
+    Picking Colours <br><br>
+    Picking Your Commander <br><br>
+    <span class="active">Creating A Land/Mana Base</span> <br><br>
+    The Curve <br><br>
+    Which Card Types? <br><br>
+    </p>
+    </div>
+
+
+<div id="MainPartPage">
 <h2>Step 3: Creating A Land/Mana Base</h2>
 <p> Now that you have selected your commander, it is time to move on to the mana base. </p>
 <p> Now, depending on who you ask you will be given very different answers as to how many lands you should put in your commander deck. Answers vary wildly, 
@@ -10,5 +77,6 @@
 <p> The next question to be answered, is what kind of lands do you add? <br> Well, that is highly dependant on the deck that you are building, but in general, 
     you want at least 5 lands that tap for any of your colours, 10 lands that tap for
     at least two of your colours and 2 lands that do beneficial things other than just tap for mana, the remainder being basic lands of the appropriate type. </p>
+</div>
 </body>
 </html>
