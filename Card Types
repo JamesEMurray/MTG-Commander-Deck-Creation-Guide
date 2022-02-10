@@ -1,6 +1,73 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+
+    <style>
+        body {
+            background-color: #FFFF
+        }
+
+        p {
+            color: Black
+        }
+
+        .Green {
+            color: green
+        }
+        .Red {
+            color: red
+        }
+        .Blue {
+            color: blue
+        }
+        .Black {
+            color: rgb(79, 15, 163)
+        }
+        .White {
+            color: rgb(218, 218, 22)
+        }
+        .Colourless {
+            color: grey
+        }
+        #NavBar {
+            position: fixed;
+            height: 100%;
+            background-color: #f1f1f1;
+            top: 0;
+            left: 0;
+            padding: 15px;
+            width: 190px;
+            overflow-x: hidden;
+            z-index: 1;
+        }
+        .active {
+            background-color: #a8afad;
+            color: rgb(0, 0, 0);
+        }
+        #MainPartPage {
+            margin-left: 220px;
+
+        }
+    </style>
+
+</head>
+
 <body>
+
+ <div id="NavBar">
+    <p>
+    Home<br><br>
+    Picking Colours <br><br>
+    Picking Your Commander <br><br>
+    Creating A Land/Mana Base <br><br>
+    The Curve <br><br>
+    <span class="active">Which Card Types?</span> <br><br>
+    </p>
+    </div>
+
+
+<div id="MainPartPage">
 <h2>Step 5: Check Type(s) of Cards That Suit Your Deck</h2>
 <p>
     Different card types suit different decks to varying degrees. To determine what kind of cards your deck wants most of you should first look at your commander and see if they benefit from cards of a certain
@@ -10,5 +77,6 @@
     Depending on what you find, you should probably implement more of certain types of cards that work well with your deck. If none become immediately apparent, then instants and creatures are normally a pretty
     good way to go, alongside your artifact inclusive mana base.
 </p>
+</div>
 </body>
 </html>
