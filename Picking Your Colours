@@ -1,9 +1,73 @@
 <!DOCTYPE html>
 <html>
 
+<head>
 
+    <style>
+        body {
+            background-color: #FFFF
+        }
+
+        p {
+            color: Black
+        }
+
+        .Green {
+            color: green
+        }
+        .Red {
+            color: red
+        }
+        .Blue {
+            color: blue
+        }
+        .Black {
+            color: rgb(79, 15, 163)
+        }
+        .White {
+            color: rgb(218, 218, 22)
+        }
+        .Colourless {
+            color: grey
+        }
+        #NavBar {
+            position: fixed;
+            height: 100%;
+            background-color: #f1f1f1;
+            top: 0;
+            left: 0;
+            padding: 15px;
+            width: 190px;
+            overflow-x: hidden;
+            z-index: 1;
+        }
+        .active {
+            background-color: #a8afad;
+            color: rgb(0, 0, 0);
+        }
+        #MainPartPage {
+            margin-left: 220px;
+
+        }
+    </style>
+
+</head>
 
 <body>
+
+ <div id="NavBar">
+    <p>
+    Home<br><br>
+    Picking Colours <br><br>
+    Picking Your Commander <br><br>
+    Creating A Land/Mana Base <br><br>
+    <span class="active">The Curve</span> <br><br>
+    Which Card Types? <br><br>
+    </p>
+    </div>
+
+
+<div id="MainPartPage">
 <h2>Step 1: Picking Your Colour(s)</h2>
 <p>When it comes to picking your commander, there are many ways of going about this.
     <br> Firstly there is the colour identity. What colour of cards to you wish to work with? Will it be
@@ -45,5 +109,6 @@
     cards without colour in their mana costs at your disposal. Tending to lean towards a massive creature, plus artifact shenanigans deck,
     colourless decks can no less be very fun to both pilot and build. If your up for the challenge, perhaps colourless is the way to go for you.
 </p>
+</div>
 </body>
 </html>
